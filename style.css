@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+.firstpage {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    position: relative;
+}
+
+.firstpage .navbar {
+    width: 100%;
+    position: inherit;
+
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+
+}
+
+.navbar h2 {
+    width: 20%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.navbar .middle {
+    width: 50%;
+    padding: 10px 0;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+}
+
+.middle a {
+    margin: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    opacity: 80%;
+}
+
+.navbar .buy {
+    width: 20%;
+    text-align: center;
+}
+
+.buy i {
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+.firstpage h1 {
+    font-size: 20em;
+    position: absolute;
+    text-transform: capitalize;
+    top: 100px;
+    left: 180px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.firstpage .shape {
+    display: flex;
+    position: inherit;
+    justify-content: center;
+    line-height: 10px;
+    margin-top: 350px;
+}
+
+img {
+    height: 240px;
+    width: 240px;
+}
+
+.shape .box1 {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    background-image: url(photo/full-shot-woman-posing-with-pink-outfit.jpg);
+    background-size: cover;
+}
+
+.shape .box2 {
+    height: 240px;
+    width: 240px;
+    border-radius: 24px;
+    background-image: url(photo/a937933f2b7e39452766be5876b7cb53.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.shape .box3 {
+    height: 250px;
+    width: 240px;
+    border-radius: 50%;
+    background-color: rgb(14, 206, 1);
+    text-align: center;
+
+}
+
+.box3 i {
+    margin-top: 45%;
+    rotate: 50deg;
+}
+
+.box3 h4 {
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+footer{
+    display: flex;
+}
+footer img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.star {
+    margin:5px;
+}
+
+.star h5 {
+    margin-top: 5px;
+    line-height: 10px;
+    color: rgb(255, 196, 0);
+}
+
+.shape .box4 {
+    height: 240px;
+    width: 240px;
+    border-radius: 24px;
+    background-image: url(photo/ea29b74e6005fcad0a4e1edf15126763.jpg);
+    background-size: cover;
+}
+
+.shape .box5 {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    background-image: url(photo/portrait-person-wearing-yellow.jpg);
+    background-size: cover;
+    background-position: 0% 20%;
+}
+
+.firstpage .comment {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-transform: capitalize;
+
+}
+
+.comment p {
+    width: 30%;
+    background-color: rgba(37, 37, 37, 0.356);
+    border-radius: 24px;
+    padding: 25px 30px;
+    opacity: 80%;
+}
+
+.comment h3 {
+    width: 30%;
+    background-color: rgba(37, 37, 37, 0.356);
+    border-radius: 24px;
+    padding: 50px 98px;
+}
+
+.comment i {
+
+    rotate: 30deg;
+}
+
+.secondpage {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.secondpage p {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.secondpage p mark {
+    background-color: transparent;
+    color: yellow;
+}
+
+.secondpage h1 {
+    font-size: 2em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.secondpage .feedback {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+    font-weight: 100;
+    background-color: transparent;
+
+}
+
+.feedback #box1 {
+    height: 200px;
+    width: 450px;
+    margin: 0px;
+    right: 80%;
+    padding: 30px;
+    position: absolute;
+    border-radius: 24px;
+    background-color: rgba(149, 152, 211, 0.92);
+    z-index: 98;
+    rotate: 350deg;
+    opacity: 50%;
+}
+
+.feedback #box2 {
+    height: 200px;
+    width: 450px;
+    padding: 30px;
+    left: 15%;
+    position: absolute;
+    border-radius: 24px;
+    background-color: rgba(149, 152, 211, 0.92);
+    z-index: 99;
+    font-weight: lighter;
+    rotate: 10deg;
+    opacity: 75%;
+}
+
+.feedback #box3 {
+    height: 200px;
+    width: 450px;
+    padding: 30px;
+    position: absolute;
+    border-radius: 24px;
+    left: 35%;
+    background-color: rgba(149, 152, 211, 0.92);
+    z-index: 100;
+}
+
+.feedback #box4 {
+    height: 200px;
+    width: 450px;
+    left: 55%;
+    padding: 30px;
+    position: absolute;
+    border-radius: 24px;
+    background-color: rgba(149, 152, 211, 0.92);
+    z-index: 98;
+    rotate: 350deg;
+    opacity: 50%;
+}
+
+.feedback #box5 {
+    height: 200px;
+    width: 450px;
+    left: 80%;
+    padding: 30px;
+    position: absolute;
+    border-radius: 24px;
+    background-color: rgba(149, 152, 211, 0.92);
+    z-index: 99;
+    overflow: hidden;
+    rotate: 10deg;
+    opacity: 75%;
+}
+
+.thirdpage {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.thirdpage h1 {
+    font-size: 2em;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 150px auto;
+}
+
+.thirdpage .image {
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+ 
+
+.image .top {
+    display: flex;
+    justify-content: center;
+
+}
+
+.top #box1 {
+    height: 240px;
+    width: 240px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(photo/photo-1550995694-3f5f4a7e1bd2.avif);
+    
+}
+
+.top #box2 {
+    height: 240px;
+    width: 240px;
+    margin: 5px;
+    border-radius: 24px;
+    background-image: url(photo/photo-1550995694-3f5f4a7e1bd2.avif);
+    background-position: 6% 40%;
+    background-size:400% 300%;
+}
+
+.top #box3 {
+    height: 240px;
+    width: 240px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(photo/photo-1550995694-3f5f4a7e1bd2.avif);
+    background-position: 40% 40%;
+    background-size:400% 300%;
+   
+}
+
+.top #box4 {
+    height: 240px;
+    width: 240px;
+    margin: 5px;
+    padding: 30px;
+    border-radius: 24px;
+    background-image: url(photo/photo-1550995694-3f5f4a7e1bd2.avif);
+    background-position: 75% 40%;
+    background-size:400% 300%;
+    font-size: 1.4em;
+    text-transform: capitalize;
+}
+#box4 .shop{
+    margin-top: 80px;
+    display: flex;
+    font-size: 0.8em;
+}
+
+.shop i{
+    padding: 5px;
+    rotate: 50deg;
+}
+.image .bottom {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom #box5 {
+    height: 240px;
+    width: 240px;
+    margin: 5px;
+    border-radius: 24px;
+    background-image: url(photo/photo-1550995694-3f5f4a7e1bd2.avif);
+}
+
+.bottom #box6 {
+    height: 240px;
+    width: 240px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(photo/photo-1550995694-3f5f4a7e1bd2.avif);
+    background-position: 6% 100%;
+    background-size:400% 300%;
+}
+
+.bottom #box7 {
+    height: 240px;
+    width: 240px;
+    margin: 5px;
+    border-radius: 24px;
+    background-image: url(photo/photo-1550995694-3f5f4a7e1bd2.avif);
+    background-position: 40% 100%;
+    background-size:400% 300%;
+}
+
+.bottom #box8 {
+    height: 240px;
+    width: 240px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(photo/photo-1550995694-3f5f4a7e1bd2.avif);
+    background-position: 75% 100%;
+    background-size:400% 300%;
+   
+}
+
+.fourpage {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    color: aliceblue;
+}
+
+.fourpage h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+.fourpage h2 {
+    height: 50px;
+    width: 39%;
+    background-color: rgba(50, 50, 50, 0.253);
+    font-size: 1em;
+    margin: 20px auto;
+    padding: 16px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    text-align: start;
+}
+
+.fivepage {
+    height: 100%;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    position: relative;
+    color: aliceblue;
+}
+
+.fivepage .swipe {
+    bottom: 30%;
+    right: 5%;
+    padding: 10px 14px;
+    border-radius: 50%;
+    position: fixed;
+    background: black;
+}
+.fivepage .swipe i {
+    color: aliceblue;
+}
+
+.fivepage .image1 {
+    height: 500px;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+.image1 .box7 {
+    height: 500px;
+    width: 400px;
+    background-color: #991f14;
+    background-image: url(photo/48b977d349d19a8da6d622a84e2f8d13.jpg);
+    background-position:-75% 30%;
+    background-repeat:no-repeat;
+    border-radius: 24px;
+}
+
+.image1 .box8 {
+    height: 500px;
+    width: 400px;
+    background-image:  url(photo/48b977d349d19a8da6d622a84e2f8d13.jpg);
+    background-position:50% 30%;
+    border-radius: 24px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+
+.image1 .box9 {
+    height: 500px;
+    width: 400px;
+    background-color: transparent;
+    padding: 50px 50px;
+    border-radius: 24px;
+    background-color: #991f14;
+    background-image: url(photo/48b977d349d19a8da6d622a84e2f8d13.jpg);
+    background-position:173% 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.box9 input {
+    height: 40px;
+    width: 300px;
+    margin: 10px 0;
+    padding: 0px 20px;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.511);
+}
+
+span {
+    top: 500px;
+    position: absolute;
+    font-size: 1.5em;
+    justify-content: start;
+}
+
+.box9 i{
+    position: absolute;
+    bottom: 44%;
+    right: 28%;
+    rotate:  50deg;
+}
+
+.fivepage .description {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(31, 31, 31, 0.404);
+    display: flex;
+    padding: 50px 10%;
+    text-align: start;
+    text-transform: capitalize;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.description .grid1 {
+    width: 35%;
+}
+
+.description .grid1 h1 {
+    font-size: 2em;
+}
+
+.grid1 h2 {
+    opacity: 80%;
+}
+
+.description .pages {
+    width: 15%;
+}
+
+.description .legal-information {
+    width: 15%;
+}
+
+.description .contact-us {
+    width: 35%;
+}
+
+.description li {
+    opacity: 90%;
+    font-weight: 300;
+}
+
+.contact-us i {
+    font-size: 1.5em;
+    margin: 5px;
+}
